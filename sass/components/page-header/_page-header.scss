@@ -1,0 +1,9 @@
+.page-header {
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+  @import './navigation__logo';
+}

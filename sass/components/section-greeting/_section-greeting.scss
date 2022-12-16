@@ -1,0 +1,57 @@
+.section-greeting {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+
+  height: 400px;
+
+  /* background-color: var(--background-color-hello); */
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hello.jpg);
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, cover;
+
+  @media screen and (min-width: 480px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 94px;
+
+    width: 1600px;
+    height: 600px;
+  }
+}
+
+.section-greeting__title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 0;
+
+  width: 450px;
+
+  color: $color-text-secondary;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+  }
+}
