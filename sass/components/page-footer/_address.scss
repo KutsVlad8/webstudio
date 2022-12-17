@@ -1,0 +1,39 @@
+.address {
+  font-style: normal;
+  margin-left: 0;
+  margin-bottom: 60px;
+}
+
+.address-list {
+  padding-left: 0;
+}
+
+.address-list__item {
+  margin-bottom: 9px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.address-list__map {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $color-text-secondary;
+  line-height: 1.71;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.address-list__link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $color-link-third;
+  line-height: 1.71;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
