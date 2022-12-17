@@ -1,0 +1,82 @@
+.auth-list {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    padding: 21px 0px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+
+    padding: 0;
+  }
+
+  /* outline: 2px solid tomato; */
+}
+
+.auth-list__item {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-left: 50px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.auth-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $color-text-primary;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.auth-list__logo-mail {
+  margin-right: 10px;
+
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.auth-list__logo-telephone {
+  margin-right: 10px;
+
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+}

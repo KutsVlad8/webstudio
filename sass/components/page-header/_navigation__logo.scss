@@ -7,6 +7,10 @@
   line-height: 1.2;
 
   color: $color-header-logo;
+
+  @media screen and (min-width: 768px) {
+    padding: 26px 0px;
+  }
 }
 
 .navigation__logo-span {

@@ -1,4 +1,14 @@
 .page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .navigation {
@@ -6,4 +16,7 @@
   align-items: center;
 
   @import './navigation__logo';
+  @import './navigation-list';
 }
+
+@import './auth-list';
