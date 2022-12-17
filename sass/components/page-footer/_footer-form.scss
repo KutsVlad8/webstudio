@@ -58,8 +58,10 @@
   }
 }
 
-.button {
+.footer-container-form__button {
   @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
     margin-left: 12px;
     margin-right: 0px;
   }
