@@ -1,10 +1,15 @@
 @import '../page-header/page-header';
 
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
-// @import './buttons-portfolio';
-// @import './portfolio-list';
+@import './buttons-portfolio';
+@import './portfolio-list';
 @import '../page-footer/page-footer';
