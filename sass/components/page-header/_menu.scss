@@ -1,0 +1,32 @@
+.menu {
+  @media screen and (max-width: 767px) {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    padding-top: 48px;
+    padding-left: 40px;
+    padding-bottom: 48px;
+
+    background-color: $bg-primary-color;
+
+    z-index: 2;
+
+    &.is-open {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 88px;
+  }
+}
+
+@import './navigation-list';
+@import './auth-list';
+@import './mobile-social';

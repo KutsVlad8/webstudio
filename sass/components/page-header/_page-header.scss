@@ -16,7 +16,6 @@
   align-items: center;
 
   @import './navigation__logo';
-  @import './navigation-list';
+  @import './mobile-menu-button';
+  @import './menu';
 }
-
-@import './auth-list';

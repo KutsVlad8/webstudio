@@ -1,0 +1,38 @@
+.mobile-social-list {
+  display: flex;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile-social-list__item {
+  padding: 0 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+    border-right: none;
+  }
+}
+
+.mobile-social-list__link {
+  position: relative;
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+
+  color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

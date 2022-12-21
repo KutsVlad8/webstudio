@@ -1,0 +1,31 @@
+.mobile-menu-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: $bg-primary-color;
+  fill: $color-title-primary;
+  z-index: 3;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  & .icon-menu__close {
+    display: none;
+  }
+  &.is-open .icon-menu__close {
+    display: block;
+  }
+  &.is-open .icon-menu__open {
+    display: none;
+  }
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+}

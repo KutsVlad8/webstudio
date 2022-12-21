@@ -23,38 +23,62 @@
             <span class="navigation__logo-span">Web</span>Studio</a
           >
 
-          <ul class="navigation-list list">
-            <li class="navigation-list__item">
-              <a href="./index.html" class="navigation-list__link list">Студія</a>
-            </li>
+          <button type="button" class="mobile-menu-button" data-menu-button>
+            <svg width="24" height="16">
+              <use class="icon-menu__open" href="./images/symbol-defs-opt.svg#icon-menu-open"></use>
+              <use class="icon-menu__close" href="./images/symbol-defs-opt.svg#icon-close"></use>
+            </svg>
+          </button>
 
-            <li class="navigation-list__item">
-              <a href="./portfolio.html" class="navigation-list__link list">Портфоліо</a>
-            </li>
+          <div class="menu" data-menu>
+            <ul class="navigation-list list no-margin">
+              <li class="navigation-list__item">
+                <a href="./index.html" class="navigation-list__link list">Студія</a>
+              </li>
 
-            <li class="navigation-list__item">
-              <a href="./contacts.html" class="navigation-list__contact list">Контакти</a>
-            </li>
-          </ul>
+              <li class="navigation-list__item">
+                <a href="./portfolio.html" class="navigation-list__link list">Портфоліо</a>
+              </li>
+
+              <li class="navigation-list__item">
+                <a href="./contacts.html" class="navigation-list__contact list">Контакти</a>
+              </li>
+            </ul>
+
+            <ul class="auth-list list no-margin">
+              <li class="auth-list__item">
+                <a href="tel:+380961111111" class="auth-list__link link-tel list">
+                  <svg class="auth-list__logo-telephone">
+                    <use href="./images/symbol-defs-opt.svg#icon-smartphone"></use></svg
+                  >+38 096 111 11 11</a
+                >
+              </li>
+
+              <li class="auth-list__item">
+                <a href="mailto:info@devstudio.com" class="auth-list__link link-mail list">
+                  <svg class="auth-list__logo-mail">
+                    <use href="./images/symbol-defs-opt.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-social-list list no-margin">
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="https://www.instagram.com/">Instagram</a>
+              </li>
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="https://twitter.com/">Twitter</a>
+              </li>
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="https://www.facebook.com/">Facebook</a>
+              </li>
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="https://www.linkedin.com/">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
         </nav>
-
-        <ul class="auth-list list">
-          <li class="auth-list__item">
-            <a href="mailto:info@devstudio.com" class="auth-list__link list">
-              <svg class="auth-list__logo-mail">
-                <use href="./images/symbol-defs-opt.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="auth-list__item">
-            <a href="tel:+380961111111" class="auth-list__link list">
-              <svg class="auth-list__logo-telephone">
-                <use href="./images/symbol-defs-opt.svg#icon-smartphone"></use></svg
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
       </div>
     </header>
 
@@ -179,5 +203,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
