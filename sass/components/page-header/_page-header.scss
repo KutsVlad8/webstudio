@@ -5,7 +5,6 @@
 .page-header__container {
   position: relative;
   @media screen and (min-width: 768px) {
-    display: flex;
   }
 
   @media screen and (min-width: 1200px) {
@@ -14,8 +13,6 @@
 
 .navigation {
   display: flex;
-  align-items: center;
-
   @import './navigation__logo';
   @import './mobile-menu-button';
   @import './menu';

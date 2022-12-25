@@ -386,20 +386,10 @@ img {
 .page-header__container {
   position: relative;
 }
-@media screen and (min-width: 768px) {
-  .page-header__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .navigation .navigation__logo {
   padding: 16px 0px;
@@ -657,7 +647,7 @@ img {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    margin-left: 315px;
+    margin-left: auto;
     padding: 0;
   }
 }
@@ -814,7 +804,6 @@ img {
 .section-hero {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
   padding-top: 118px;
   padding-bottom: 118px;
   width: 100%;
@@ -847,7 +836,6 @@ img {
   .section-hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    margin-bottom: 94px;
     width: 1600px;
     height: 600px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-desktop.jpg");
@@ -897,15 +885,12 @@ img {
 }
 
 .section-features {
+  padding-top: 60px;
   padding-bottom: 60px;
-}
-@media screen and (min-width: 768px) {
-  .section-features {
-    padding-bottom: 77px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .section-features {
+    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -950,7 +935,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   width: 100%;
   height: 120px;
   background-color: #f5f4fa;
@@ -1460,6 +1445,7 @@ img {
 .follow-form__input {
   margin-bottom: 20px;
   padding: 15px 16px;
+  width: 100%;
   color: #ffffff;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1514,20 +1500,10 @@ img {
 .page-header__container {
   position: relative;
 }
-@media screen and (min-width: 768px) {
-  .page-header__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .navigation .navigation__logo {
   padding: 16px 0px;
@@ -1785,7 +1761,7 @@ img {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    margin-left: 315px;
+    margin-left: auto;
     padding: 0;
   }
 }
@@ -2374,6 +2350,7 @@ img {
 .follow-form__input {
   margin-bottom: 20px;
   padding: 15px 16px;
+  width: 100%;
   color: #ffffff;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -2428,20 +2405,10 @@ img {
 .page-header__container {
   position: relative;
 }
-@media screen and (min-width: 768px) {
-  .page-header__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .navigation .navigation__logo {
   padding: 16px 0px;
@@ -2699,7 +2666,7 @@ img {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    margin-left: 315px;
+    margin-left: auto;
     padding: 0;
   }
 }
@@ -3171,6 +3138,7 @@ img {
 .follow-form__input {
   margin-bottom: 20px;
   padding: 15px 16px;
+  width: 100%;
   color: #ffffff;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -3319,6 +3287,14 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+}
+
+.backdrop__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .backdrop__label {

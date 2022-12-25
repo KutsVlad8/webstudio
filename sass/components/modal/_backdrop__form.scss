@@ -5,6 +5,16 @@
   width: 100%;
 }
 
+.backdrop__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+
+  letter-spacing: 0.03em;
+
+  color: $color-title-primary;
+}
+
 .backdrop__label {
   position: relative;
   display: flex;
