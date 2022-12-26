@@ -1462,6 +1462,7 @@ img {
 .follow-form__input {
   margin-bottom: 20px;
   padding: 15px 16px;
+  min-width: 300px;
   width: 100%;
   color: #ffffff;
   background-color: transparent;
@@ -2384,6 +2385,7 @@ img {
 .follow-form__input {
   margin-bottom: 20px;
   padding: 15px 16px;
+  min-width: 300px;
   width: 100%;
   color: #ffffff;
   background-color: transparent;
@@ -3189,6 +3191,7 @@ img {
 .follow-form__input {
   margin-bottom: 20px;
   padding: 15px 16px;
+  min-width: 300px;
   width: 100%;
   color: #ffffff;
   background-color: transparent;
